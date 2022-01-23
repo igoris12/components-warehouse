@@ -4,10 +4,14 @@ import Drop from "./components/drop/Drop";
 function App() {
   return (
     <div className="App">
-      <span>
+      <span className="div">
+
+        <Drop />
         <Drop />
 
       </span>
+
+
 
     </div>
   );

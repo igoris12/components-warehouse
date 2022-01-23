@@ -12,6 +12,16 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #eee;
+}
+
+.div {
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100vw;
   height: 100vh;
+  gap: 40px;
   background-color: #eee;
 }

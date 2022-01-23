@@ -1,4 +1,7 @@
 .drop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
   width: 150px;
   height: 150px;
@@ -6,9 +9,6 @@
   box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.05),
     15px 25px 10px rgba(0, 0, 0, 0.05), 15px 20px 20px rgba(0, 0, 0, 0.05),
     inset -10px -10px 15px rgba(0, 0, 0, 0.05);
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .drop::before {
