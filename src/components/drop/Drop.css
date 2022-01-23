@@ -1,0 +1,39 @@
+.drop {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.05),
+    15px 25px 10px rgba(0, 0, 0, 0.05), 15px 20px 20px rgba(0, 0, 0, 0.05),
+    inset -10px -10px 15px rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.drop::before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 35px;
+  left: 25px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.drop::after {
+  content: '';
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 25px;
+  left: 50px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+span {
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}

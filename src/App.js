@@ -1,9 +1,14 @@
+import Drop from "./components/drop/Drop";
 
 
 function App() {
   return (
     <div className="App">
-      in progress...
+      <span>
+        <Drop />
+
+      </span>
+
     </div>
   );
 }
