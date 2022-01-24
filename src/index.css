@@ -18,7 +18,7 @@ body {
 .div {
   padding: 60px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   width: 100vw;
   height: 100vh;

@@ -21,14 +21,14 @@
     rgba(236, 8, 8, 0.864) 0%,
     rgba(25, 6, 230, 0.287) 100%
   );
-  animation: infinite borderAnimation linear 4s;
+  animation: infinite borderAnimation 4s linear;
 }
 
 .card::after {
   position: absolute;
   content: '';
   border-radius: 5px;
-  background: rgb(84, 11, 84);
+  background: rgb(213, 210, 210);
   inset: 4px;
 }
 
