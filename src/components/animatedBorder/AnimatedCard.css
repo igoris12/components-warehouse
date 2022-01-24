@@ -1,0 +1,48 @@
+.card {
+  position: relative;
+  width: 150px;
+  height: 200px;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.card::before {
+  position: absolute;
+  content: '';
+  width: 70px;
+  height: 140%;
+  background: rgb(8, 236, 198);
+  background: linear-gradient(
+    90deg,
+    rgba(236, 8, 8, 0.864) 0%,
+    rgba(25, 6, 230, 0.287) 100%
+  );
+  animation: infinite borderAnimation linear 4s;
+}
+
+.card::after {
+  position: absolute;
+  content: '';
+  border-radius: 5px;
+  background: rgb(84, 11, 84);
+  inset: 4px;
+}
+
+@keyframes borderAnimation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* content style  */
+.card h2 {
+  z-index: 10;
+  color: white;
+}

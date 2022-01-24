@@ -1,3 +1,4 @@
+import AnimatedCard from "./components/animatedBorder/AnimatedCard";
 import Drop from "./components/drop/Drop";
 
 
@@ -7,7 +8,7 @@ function App() {
       <span className="div">
 
         <Drop />
-        <Drop />
+        <AnimatedCard />
 
       </span>
 
