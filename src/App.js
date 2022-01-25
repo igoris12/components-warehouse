@@ -1,5 +1,6 @@
 import AnimatedCard from "./components/animatedBorder/AnimatedCard";
 import Drop from "./components/drop/Drop";
+import Loader from "./components/loader/Loader";
 
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
 
         <Drop />
         <AnimatedCard />
-
+        <Loader />
       </span>
 
 
