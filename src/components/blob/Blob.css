@@ -1,0 +1,11 @@
+.blob {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.blob h4 {
+  position: absolute;
+  color: white;
+}
