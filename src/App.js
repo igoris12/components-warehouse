@@ -16,7 +16,7 @@ function App() {
         <Loader />
         <Blob text={'CSS & SVG'} />
         <ToggleButton />
-        {/* <CircularMenu /> */}
+        <CircularMenu />
       </span>
 
 
