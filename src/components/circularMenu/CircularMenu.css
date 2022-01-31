@@ -1,3 +1,65 @@
 .circularMenu {
-  background-color: red;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.circularMenu .toggle {
+  position: absolute;
+  background: white;
+  width: 60px;
+  height: 60px;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.15);
+  transition: 1s;
+}
+
+.circularMenu li {
+  position: absolute;
+  left: 0;
+  list-style: none;
+  transform-origin: 100px;
+  transition: 0.5s;
+  transition-delay: calc(0.1s * var(--i));
+  transform: rotate(0deg) translateX(80px);
+}
+
+.circularMenu li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: white;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.15);
+  color: #111;
+  transition: 0.5s;
+}
+
+.circularMenu li a:hover {
+  color: #ff1252;
+}
+
+.circularMenu li a svg {
+  width: auto;
+  height: auto;
+  transform: rotate(calc(-360deg / 8 * var(--i)));
+}
+
+.circularMenu.active .toggle {
+  transform: rotate(315deg);
+}
+
+.circularMenu.active li {
+  transform: rotate(calc(360deg / 8 * var(--i)));
 }

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './CircularMenu.css';
 import {
   ImPlus,
@@ -11,43 +11,60 @@ import {
   ImUsers,
   ImLinkedin,
 } from 'react-icons/im';
+
 const CircularMenu = () => {
+  const [active, setActive] = useState(false);
+
+  const toggleMenu = () => {
+    setActive(!active);
+  };
+
   return (
-    <div className="circularMenu">
-      <div className="toggle">
+    <div className={active ? 'circularMenu active' : 'circularMenu'}>
+      <div className="toggle" onClick={toggleMenu}>
         <ImPlus />
       </div>
       <li style={{ '--i': '0' }}>
         {' '}
-        <ImWrench />
+        <a href="#">
+          <ImWrench />
+        </a>
       </li>
       <li style={{ '--i': '1' }}>
         {' '}
-        <ImLinkedin />
+        <a href="#">
+          <ImLinkedin />
+        </a>
       </li>
       <li style={{ '--i': '2' }}>
-        {' '}
-        <ImDatabase />
+        <a href="#">
+          <ImDatabase />
+        </a>
       </li>
       <li style={{ '--i': '3' }}>
-        {' '}
-        <ImAddressBook />
+        <a href="#">
+          <ImAddressBook />
+        </a>
       </li>
       <li style={{ '--i': '4' }}>
-        {' '}
-        <ImCreditCard />
+        <a href="#">
+          <ImCreditCard />
+        </a>
       </li>
       <li style={{ '--i': '5' }}>
-        {' '}
-        <ImHome3 />
+        <a href="#">
+          <ImHome3 />
+        </a>
       </li>
       <li style={{ '--i': '6' }}>
-        {' '}
-        <ImLocation2 />
+        <a href="#">
+          <ImLocation2 />
+        </a>
       </li>
       <li style={{ '--i': '7' }}>
-        {' '}
-        <ImUsers />
+        <a href="#">
+          <ImUsers />
+        </a>
       </li>
     </div>
   );
