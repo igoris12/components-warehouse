@@ -6,8 +6,8 @@ const Blob = ({ text }) => {
       <svg viewBox="0 0 500 500" width="100%" id="blobSvg">
         <defs>
           <linearGradient id="MyGradient">
-            <stop offset="0%" stop-color="rgb(255, 95, 109)" />
-            <stop offset="100%" stop-color="rgb(255, 195, 113)" />
+            <stop offset="0%" stopColor="rgb(255, 95, 109)" />
+            <stop offset="100%" stopColor="rgb(255, 195, 113)" />
           </linearGradient>
         </defs>
         <path id="blob" fill="url(#MyGradient)">
