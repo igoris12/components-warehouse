@@ -1,0 +1,18 @@
+.AnimatedLoderContaner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.AnimatedLoderContaner .ring {
+  width: 80px;
+  height: 80px;
+  border: 2px solid red;
+  border-radius: 50%;
+  position: relative;
+}
+
+.AnimatedLoderContaner .ring:nth-child(3) {
+  position: absolute;
+}
