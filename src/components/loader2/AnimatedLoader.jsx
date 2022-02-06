@@ -7,7 +7,7 @@ const AnimatedLoader = () => {
       <span className="ring"></span>
       <span className="ring"></span>
       <span className="ring"></span>
-      {/* <p>Loading...</p> */}
+      <p>Loading...</p>
     </div>
   );
 };

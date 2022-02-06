@@ -3,16 +3,55 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: aliceblue;
+  width: 150px;
+  height: 150px;
 }
 
 .AnimatedLoderContaner .ring {
   width: 80px;
   height: 80px;
-  border: 2px solid red;
+  border: 2px solid transparent;
   border-radius: 50%;
   position: relative;
+  margin: -15px;
+  border-top: 2px solid #24ecff;
+  animation: rotate 4s linear infinite;
+}
+
+.AnimatedLoderContaner .ring::before {
+  content: '';
+  position: absolute;
+  right: 3px;
+  top: 8px;
+  width: 10px;
+  height: 10px;
+  background-color: #24ecff;
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px #24ecff33, 0 0 0 6px #24ecff22, 0 0 0 12px #24ecff11,
+    0 0 20px #24ecff, 0 0 30px #24ecff;
 }
 
 .AnimatedLoderContaner .ring:nth-child(3) {
   position: absolute;
+  top: 15px;
+}
+
+.AnimatedLoderContaner p {
+  position: absolute;
+  color: #000;
+  bottom: 0;
+  font-family: consolas;
+  letter-spacing: 1.5px;
+}
+
+/* Animation  */
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
