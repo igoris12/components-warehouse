@@ -18,14 +18,15 @@
 
 .btn-hover::before {
   content: '';
+  transform: translate(-50%, -50%);
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 20px;
-  height: 20px;
+  top: var(--y);
+  left: var(--x);
+  width: 0px;
+  height: 0px;
   border-radius: 50%;
   background: rgb(133, 22, 245);
-  transition: 0.5s;
+  transition: width 0.5s, height 0.5s;
 }
 
 .btn-hover:hover::before {
