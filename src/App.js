@@ -5,6 +5,7 @@ import Drop from "./components/drop/Drop";
 import Loader from "./components/loader/Loader";
 import ToggleButton from "./components/toggle/ToggleButton";
 import AnimatedLoader from "./components/loader2/AnimatedLoader";
+import HoverBtn from "./components/buttons/btn1/HoverBtn";
 
 
 
@@ -19,6 +20,7 @@ function App() {
         <ToggleButton />
         <CircularMenu />
         <AnimatedLoader />
+        <HoverBtn />
       </span>
     </div>
   );
