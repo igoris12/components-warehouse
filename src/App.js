@@ -6,6 +6,7 @@ import Loader from "./components/loader/Loader";
 import ToggleButton from "./components/toggle/ToggleButton";
 import AnimatedLoader from "./components/loader2/AnimatedLoader";
 import HoverBtn from "./components/buttons/btn1/HoverBtn";
+import Menu from "./components/menuHoverText/Menu";
 
 
 
@@ -21,6 +22,7 @@ function App() {
         <CircularMenu />
         <AnimatedLoader />
         <HoverBtn />
+        <Menu />
       </span>
     </div>
   );
