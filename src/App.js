@@ -7,6 +7,7 @@ import ToggleButton from "./components/toggle/ToggleButton";
 import AnimatedLoader from "./components/loader2/AnimatedLoader";
 import HoverBtn from "./components/buttons/btn1/HoverBtn";
 import Menu from "./components/menuHoverText/Menu";
+import GlowingSocialMedia from "./components/glowingSocialMedia/GlowingSocialMedia";
 
 
 
@@ -23,6 +24,7 @@ function App() {
         <AnimatedLoader />
         <HoverBtn />
         <Menu />
+        <GlowingSocialMedia />
       </span>
     </div>
   );
