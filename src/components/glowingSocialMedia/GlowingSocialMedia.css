@@ -1,0 +1,49 @@
+:root {
+  --bg: transparent;
+}
+
+.socialMedia {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 80px;
+}
+
+.socialMedia li {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.socialMedia li:hover {
+  z-index: 100;
+  transform: scale(0.75);
+}
+.socialMedia li::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  box-shadow: 0 0 0 10px var(--clr), 0 0 0 20px var(--bg), 0 0 0 22px var(--clr);
+}
+
+.socialMedia li a {
+  position: relative;
+  text-decoration: none;
+  color: var(--clr);
+  font-size: 2em;
+  transition: 0.5s;
+  z-index: 10;
+}
+
+.socialMedia li:hover a {
+  font-size: 2em;
+  filter: drop-shadow(0 0 30px var(--clr)) drop-shadow(0 0 30px var(--clr))
+    drop-shadow(0 0 40px var(--clr));
+}

@@ -11,27 +11,27 @@ import {
 const GlowingSocialMedia = () => {
   return (
     <ul className="socialMedia">
-      <li>
+      <li style={{ '--clr': '#1877f2' }}>
         <a href="#">
           <BsFacebook />
         </a>
       </li>
-      <li>
-        <a href="#">
-          <BsLinkedin />
-        </a>
-      </li>
-      <li>
+      <li style={{ '--clr': '#00dc82' }}>
         <a href="#">
           <BsWhatsapp />
         </a>
       </li>
-      <li>
+      <li style={{ '--clr': '#42a7ff' }}>
+        <a href="#">
+          <BsLinkedin />
+        </a>
+      </li>
+      <li style={{ '--clr': '#ff0000' }}>
         <a href="#">
           <BsYoutube />
         </a>
       </li>
-      <li>
+      <li style={{ '--clr': '#4da1f2' }}>
         <a href="#">
           <BsTwitter />
         </a>
