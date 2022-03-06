@@ -13,9 +13,8 @@
   width: 30px;
   height: 200%;
   background: white;
-  box-shadow: inset -3px 0 2px rgba(0, 0, 0, 0.1),
-    inset 3px 0 2px rgba(0, 0, 0, 0.1),
-    inset -3px 0 2px rgba(255, 255, 255, 0.25),
+  box-shadow: inset -3px 0 2px rgba(0, 0, 0, 1),
+    inset 3px 0 2px rgba(0, 0, 0, 1), inset -3px 0 2px rgba(255, 255, 255, 0.25),
     inset 3px 0 2px rgba(255, 255, 255, 0.25), 0 0 50px rgba(0, 0, 0, 1);
 }
 
@@ -24,6 +23,7 @@
     radial-gradient(#6dff73 3px, #0000 3px, #000 5px, transparent 9px);
   background-size: 10px 10px;
   transform: translate(-50%, -50%) rotate(45deg);
+  z-index: 11;
 }
 
 .layer.layer2 {
@@ -31,6 +31,7 @@
     radial-gradient(red 3px, #0000 3px, #000 5px, transparent 9px);
   background-size: 10px 10px;
   transform: translate(-50%, -40%) rotate(45deg);
+  z-index: 3;
 }
 
 .layer.layer3 {
@@ -38,25 +39,34 @@
     radial-gradient(blue 3px, #0000 3px, #000 5px, transparent 9px);
   background-size: 10px 10px;
   transform: translate(-50%, -60%) rotate(45deg);
+  z-index: 3;
 }
 
 .layer.layer4 {
   background: #222
-    radial-gradient(#6dff73 3px, #0000 3px, #000 5px, transparent 9px);
+    radial-gradient(rgb(245, 9, 245) 3px, #0000 3px, #000 5px, transparent 9px);
   background-size: 10px 10px;
   transform: translate(-50%, -50%) rotate(-45deg);
+  z-index: 12;
 }
 
 .layer.layer5 {
   background: #222
-    radial-gradient(red 3px, #0000 3px, #000 5px, transparent 9px);
+    radial-gradient(rgb(255, 238, 0) 3px, #0000 3px, #000 5px, transparent 9px);
   background-size: 10px 10px;
   transform: translate(-50%, -40%) rotate(-45deg);
+  z-index: 10;
 }
 
 .layer.layer6 {
   background: #222
-    radial-gradient(blue 3px, #0000 3px, #000 5px, transparent 9px);
+    radial-gradient(
+      rgb(238, 238, 238) 3px,
+      #0000 3px,
+      #000 5px,
+      transparent 9px
+    );
   background-size: 10px 10px;
   transform: translate(-50%, -60%) rotate(-45deg);
+  z-index: 10;
 }
