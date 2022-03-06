@@ -4,6 +4,8 @@
   height: 300px;
   background-color: black;
   overflow: hidden;
+  box-shadow: 0 0 0 10px rgb(98, 95, 95), 0 0 0 15px #eee, 0 0 0 25px black;
+  margin: 25px;
 }
 
 .layer {
