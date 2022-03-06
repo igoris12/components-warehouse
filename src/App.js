@@ -8,6 +8,7 @@ import AnimatedLoader from "./components/loader2/AnimatedLoader";
 import HoverBtn from "./components/buttons/btn1/HoverBtn";
 import Menu from "./components/menuHoverText/Menu";
 import GlowingSocialMedia from "./components/glowingSocialMedia/GlowingSocialMedia";
+import BackgroundAnimation from "./components/background/BackgroundAnimation";
 
 
 
@@ -25,6 +26,7 @@ function App() {
         <HoverBtn />
         <Menu />
         <GlowingSocialMedia />
+        <BackgroundAnimation />
       </span>
     </div>
   );
