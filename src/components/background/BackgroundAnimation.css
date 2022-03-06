@@ -24,6 +24,7 @@
   background-size: 10px 10px;
   transform: translate(-50%, -50%) rotate(45deg);
   z-index: 11;
+  animation: backgroundAnimation 2s linear infinite;
 }
 
 .layer.layer2 {
@@ -32,6 +33,7 @@
   background-size: 10px 10px;
   transform: translate(-50%, -40%) rotate(45deg);
   z-index: 3;
+  animation: backgroundAnimationTwo 2s linear infinite;
 }
 
 .layer.layer3 {
@@ -40,6 +42,7 @@
   background-size: 10px 10px;
   transform: translate(-50%, -60%) rotate(45deg);
   z-index: 3;
+  animation: backgroundAnimationTwo 2s linear infinite;
 }
 
 .layer.layer4 {
@@ -48,6 +51,7 @@
   background-size: 10px 10px;
   transform: translate(-50%, -50%) rotate(-45deg);
   z-index: 12;
+  animation: backgroundAnimation 2s linear infinite;
 }
 
 .layer.layer5 {
@@ -56,6 +60,7 @@
   background-size: 10px 10px;
   transform: translate(-50%, -40%) rotate(-45deg);
   z-index: 10;
+  animation: backgroundAnimationTwo 2s linear infinite;
 }
 
 .layer.layer6 {
@@ -69,4 +74,25 @@
   background-size: 10px 10px;
   transform: translate(-50%, -60%) rotate(-45deg);
   z-index: 10;
+  animation: backgroundAnimationTwo 2s linear infinite;
+}
+
+/* Animaitons */
+
+@keyframes backgroundAnimation {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 10px -10px;
+  }
+}
+
+@keyframes backgroundAnimationTwo {
+  0% {
+    background-position: 10px -10px;
+  }
+  100% {
+    background-position: 0 0;
+  }
 }
