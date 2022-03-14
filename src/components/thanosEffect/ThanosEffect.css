@@ -1,0 +1,18 @@
+.container {
+  width: 1000px;
+  height: 1000px;
+  background-color: red;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .block {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
