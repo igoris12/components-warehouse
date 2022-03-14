@@ -11,6 +11,14 @@ const ThanosEffect = () => {
       block.classList.toggle('block');
       container.appendChild(block);
     }
+
+    const blocks = document.querySelectorAll('.block');
+
+    // const animation = anime.timeline({
+    //   target: blocks,
+    //   easing: 'easeInOutExpo',
+    //   loop: true,
+    // });
   }, []);
 
   return <div className="container" id="thanosEffect-container"></div>;
