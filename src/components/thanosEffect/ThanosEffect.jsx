@@ -5,16 +5,7 @@ import './ThanosEffect.css';
 const ThanosEffect = () => {
   useEffect(() => {
     const container = document.querySelector('#thanosEffect-container');
-    const animeScript = document.createElement('script');
-    animeScript.crossorigin = 'anonymous';
-    animeScript.referrerpolicy = 'no-referrer';
-    animeScript.src =
-      'https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js';
-    animeScript.integrity =
-      'sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==';
 
-    document.querySelector('body').appendChild(animeScript);
-    console.log(animeScript);
     for (let i = 0; i <= 100; i++) {
       const block = document.createElement('div');
       block.classList.toggle('block');
