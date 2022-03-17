@@ -1,21 +1,28 @@
 .container {
-  width: 1000px;
-  height: 1000px;
-  background-color: red;
-  position: relative;
+  /* width: 1200px;
+  height: 500px; */
+  /* position: relative;
   display: flex;
-  overflow: hidden;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  margin-bottom: 100px; */
+  margin-bottom: 100px;
+  overflow: hidden;
+
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
   transform-style: preserve-3d;
   perspective: 1000px;
 }
 
 .container .block {
   position: relative;
-  width: 100px;
-  height: 100px;
+  width: 5vw;
+  height: 5vw;
   border: 1px solid black;
   background: url('../../img/Culture-Grumpy-Cat.jpg');
   background-size: cover;
