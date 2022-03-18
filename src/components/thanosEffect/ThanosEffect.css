@@ -1,17 +1,6 @@
 .container {
-  /* width: 1200px;
-  height: 500px; */
-  /* position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  transform-style: preserve-3d;
-  perspective: 1000px;
-  margin-bottom: 100px; */
   margin-bottom: 100px;
   overflow: hidden;
-
   position: relative;
   display: flex;
   flex-wrap: wrap;
