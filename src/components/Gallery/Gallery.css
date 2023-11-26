@@ -20,3 +20,18 @@
 .grid-gallery img:nth-child(5n - 1) { 
     grid-column: 2 / span 2 
   }
+
+  /*  Adding Interactions */
+  .grid-gallery:has(img:hover) img:not(:hover) {
+    filter: brightness(0.5) contrast(0.5);
+  }
+
+  .grid-gallery img {
+    transition: clip-path 0.25s, filter 0.75s;
+  }
+
+  .grid-gallery img:hover {
+    clip-path: path("M0,0 C0,0 200,0 200,0 200,0 200,100 200,100 200,100 200,200 200,200 200,200 100,200 100,200 100,200 100,200 0,200 0,200 0,100 0,100 0,100 0,100 0,100Z");
+    transition: clip-path 0.25s, filter 0.25s;
+    z-index: 1;
+  }
