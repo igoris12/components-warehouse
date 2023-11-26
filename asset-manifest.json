@@ -1,13 +1,21 @@
 {
   "files": {
-    "main.css": "/components-warehouse/static/css/main.a85d2080.css",
-    "main.js": "/components-warehouse/static/js/main.fa1183ce.js",
+    "main.css": "/components-warehouse/static/css/main.b2f95119.css",
+    "main.js": "/components-warehouse/static/js/main.badef736.js",
+    "static/media/slider3d.png": "/components-warehouse/static/media/slider3d.e04191d43d5142a1f45e.png",
+    "static/media/vintedCopy2.png": "/components-warehouse/static/media/vintedCopy2.641ac932e75a0543cfd4.png",
+    "static/media/vintedCopy.png": "/components-warehouse/static/media/vintedCopy.bcfa6758a7f76a5e1ff4.png",
+    "static/media/webProject.png": "/components-warehouse/static/media/webProject.aa012edd8454d6c4e111.png",
+    "static/media/portfolio.png": "/components-warehouse/static/media/portfolio.73b7c1ee3cd9c5bfd1e1.png",
+    "static/media/simpleForm2.png": "/components-warehouse/static/media/simpleForm2.0a491e6950d0d62c621f.png",
+    "static/media/simpleForm.png": "/components-warehouse/static/media/simpleForm.bc299a275631237ccfc0.png",
+    "static/media/snakeGame.png": "/components-warehouse/static/media/snakeGame.58b7481b141fb9841b9b.png",
     "index.html": "/components-warehouse/index.html",
-    "main.a85d2080.css.map": "/components-warehouse/static/css/main.a85d2080.css.map",
-    "main.fa1183ce.js.map": "/components-warehouse/static/js/main.fa1183ce.js.map"
+    "main.b2f95119.css.map": "/components-warehouse/static/css/main.b2f95119.css.map",
+    "main.badef736.js.map": "/components-warehouse/static/js/main.badef736.js.map"
   },
   "entrypoints": [
-    "static/css/main.a85d2080.css",
-    "static/js/main.fa1183ce.js"
+    "static/css/main.b2f95119.css",
+    "static/js/main.badef736.js"
   ]
 }
