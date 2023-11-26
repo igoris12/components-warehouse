@@ -9,7 +9,7 @@ import HoverBtn from "./components/buttons/btn1/HoverBtn";
 import Menu from "./components/menuHoverText/Menu";
 import GlowingSocialMedia from "./components/glowingSocialMedia/GlowingSocialMedia";
 import BackgroundAnimation from "./components/background/BackgroundAnimation";
-import ThanosEffect from "./components/thanosEffect/ThanosEffect";
+// import ThanosEffect from "./components/thanosEffect/ThanosEffect";
 
 
 
@@ -28,7 +28,7 @@ function App() {
         <Menu />
         <GlowingSocialMedia />
         <BackgroundAnimation />
-        <ThanosEffect />
+        {/* <ThanosEffect /> */}
 
 
 
