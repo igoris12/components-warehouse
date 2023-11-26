@@ -35,3 +35,9 @@
     transition: clip-path 0.25s, filter 0.25s;
     z-index: 1;
   }
+
+  /* For a tag  */
+  .grid-gallery a:focus {
+    outline: 1px dashed black;
+    outline-offset: -5px;
+  }
